@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #A6A3C4; /* Soft purple background */
+    font-family: 'Georgia', serif;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    width: 340px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.badge {
+    background-color: #FEEA8A;
+    color: black;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2 span {
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+    line-height: 1.5;
+}
